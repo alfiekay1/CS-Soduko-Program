@@ -47,19 +47,7 @@ def check_all(x, y, grid, value):
 def insert_input(x, y, grid, value):
     grid[y][x] = value
     return grid
-
-grid = [
-    [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    [3, 7, 0, 0, 0, 0, 0, 0, 0],
-    [2, 5, 7, 9, 0, 0, 4, 6, 7],
-    [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    [3, 7, 0, 0, 0, 0, 0, 0, 0],
-    [2, 5, 7, 9, 0, 0, 4, 6, 7],
-    [1, 2, 3, 4, 5, 6, 7, 8, 9],
-    [3, 7, 0, 0, 0, 0, 0., 0, 0],
-    [2, 5, 7, 9, 0, 0, 4, 6, 7]
-]
-
+    
 def handle_input(grid):
     x, y, value = take_input()
     value = str(value)
