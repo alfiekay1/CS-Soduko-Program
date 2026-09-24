@@ -1,3 +1,4 @@
+board=""
 def print_board_line(board,line):
     line_string="|"
     num=0

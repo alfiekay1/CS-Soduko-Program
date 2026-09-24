@@ -11,7 +11,6 @@ def load_board (file_name):
     file.close()
 def cast_board (board):
     numbers = board.split (" ")
-    print (numbers)
     array_board = []
  
     for i in range (9):
